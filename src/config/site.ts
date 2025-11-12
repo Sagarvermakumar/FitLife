@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "FitLife Hub",
   description: "A modern gym to achieve your fitness goals. Join us and transform your life.",
-  tagline: "Your Journey to a Healthier You Starts Here.",
+  tagline: "Your Fitness Journey Starts Today, Transform Your Life.",
   navLinks: [
     { title: "About", href: "#about" },
     { title: "Services", href: "#services" },

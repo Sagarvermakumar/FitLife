@@ -6,6 +6,8 @@ import { BookTrialModal } from "@/components/book-trial-modal";
 import { motion, useMotionValue, useTransform } from "framer-motion";
 import React from "react";
 import { Crown, Calendar, Dumbbell, Users, Award } from "lucide-react";
+import { metadata } from "@/app/layout";
+
 
 export function Hero() {
   const x = useMotionValue(0);
@@ -43,13 +45,13 @@ export function Hero() {
       <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white">
         <motion.div
           style={{ rotateX, rotateY, transition: "transform 0.1s ease-out" }}
-          className="flex flex-col items-center"
+          className="flex flex-col items-center gap-2"
         >
           <p className="mb-3 text-xs sm:text-sm tracking-[3px] sm:tracking-[4px] uppercase text-purple-300 font-semibold">
             Transform Your Body & Mind
           </p>
 
-          <h1 className="text-3xl lg:px-12 sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold tracking-tight font-headline [text-shadow:0_0_10px_rgba(255,255,255,0.3)]">
+          <h1 className="lg:max-w-screen-lg line-height-2 text-3xl lg:mx-48 sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl font-extrabold tracking-tight font-headline text-black-400 [text-shadow:0_0_10px_rgba(255,255,255,0.1)]">
             {siteConfig.tagline}
           </h1>
 

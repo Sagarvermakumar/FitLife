@@ -7,7 +7,7 @@ export function AnimatedBackground() {
     <div className="fixed inset-0 -z-10 h-full w-full bg-transparent">
       <div className="relative h-full w-full">
         <motion.div
-          className="absolute top-[8%] left-[2%] h-[150px] w-[150px] rounded-full bg-blue-700/50"
+          className="absolute top-[18%] left-[2%] h-[150px] w-[150px] rounded-full bg-blue-700/60"
           style={{ filter: "blur(70px)" }}
           animate={{ x: [0, 10, -10, 0], y: [0, -15, 20, 0] }}
           transition={{

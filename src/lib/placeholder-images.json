@@ -1,0 +1,64 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "Hero background image of a gym",
+      "imageUrl": "https://images.unsplash.com/photo-16719709222029-0430d2ae122c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxneW0lMjBpbnRlcmlvcnxlbnwwfHx8fDE3NjI4Mzk2MzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gym interior"
+    },
+    {
+      "id": "about",
+      "description": "Image of gym facilities",
+      "imageUrl": "https://images.unsplash.com/photo-1646656130630-07af3a262a9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Zml0bmVzcyUyMGVxdWlwbWVudHxlbnwwfHx8fDE3NjI5MzMzMDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fitness equipment"
+    },
+    {
+      "id": "1",
+      "description": "Trainer Jessica Miles",
+      "imageUrl": "https://images.unsplash.com/photo-1709601414313-17217448a9fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmVtYWxlJTIwdHJhaW5lcnxlbnwwfHx8fDE3NjI5MzMzMDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "female trainer"
+    },
+    {
+      "id": "2",
+      "description": "Trainer Mike Anderson",
+      "imageUrl": "https://images.unsplash.com/photo-1704223523169-52feeed90365?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYWxlJTIwdHJhaW5lcnxlbnwwfHx8fDE3NjI5MzMzMDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "male trainer"
+    },
+    {
+      "id": "3",
+      "description": "Trainer Sarah Chen",
+      "imageUrl": "https://images.unsplash.com/photo-1590599652713-cb193fbae075?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmZW1hbGUlMjB0cmFpbmVyJTIwc21pbGluZ3xlbnwwfHx8fDE3NjI5MzMzMDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "female trainer smiling"
+    },
+    {
+      "id": "4",
+      "description": "Trainer David Lee",
+      "imageUrl": "https://images.unsplash.com/photo-1677355087156-0d0dd635e0dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFsZSUyMHRyYWluZXIlMjBwb3Npbmd8ZW58MHx8fHwxNzYyOTMzMzAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "male trainer posing"
+    },
+    {
+      "id": "5",
+      "description": "Testimonial avatar Emily R.",
+      "imageUrl": "https://images.unsplash.com/photo-1592621385612-4d7129426394?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzYyODY1MTk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "6",
+      "description": "Testimonial avatar John D.",
+      "imageUrl": "https://images.unsplash.com/photo-1623184663110-89ba5b565eb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtYW4lMjBzbWlsaW5nfGVufDB8fHx8MTc2MjgyNDIwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man smiling"
+    },
+    {
+      "id": "7",
+      "description": "Testimonial avatar Samantha L.",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZXJzb24lMjBzbWlsaW5nfGVufDB8fHx8MTc2Mjg0NjIxMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person smiling"
+    },
+    {
+      "id": "map",
+      "description": "Location map",
+      "imageUrl": "https://images.unsplash.com/photo-1730317195705-8a265a59ed1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaXR5JTIwbWFwfGVufDB8fHx8MTc2MjkyNjg0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city map"
+    }
+  ]
+}

@@ -19,7 +19,7 @@ const transformations = [
 
 export default function TransformationStories() {
   return (
-    <section className="py-20 bg-black text-white" id="transformations">
+    <section className="py-20 bg-transparent text-white" id="transformations">
       <div className="max-w-5xl mx-auto px-4 text-center">
         <h2 className="text-4xl md:text-5xl font-extrabold mb-4 font-headline">
           Transformation <span className="text-red-500">Stories</span>

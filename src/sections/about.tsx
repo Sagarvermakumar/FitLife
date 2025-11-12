@@ -82,7 +82,7 @@ export default function About() {
         {/* LEFT CONTENT */}
         <div className="flex flex-col justify-center">
        
-          <Heading title="FitLife-Best Gym in Navlakha, Indore" subtitle="" />
+          <Heading title="FitLife - Best Gym in XYZ, City" subtitle="" />
           <p className="text-gray-300 mb-8">
             Welcome to <span style={{color:"purple", fontWeight:600}} >FitLife</span>, the premier fitness destination in Navlakha, Indore.
             We combine certified personal training, modern equipment, and a supportive

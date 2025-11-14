@@ -18,8 +18,8 @@ export const siteConfig = {
   contact: {
     address: "123 Fitness St, Workout City, 12345",
     phone: "+1 (234) 567-890",
-    whatsapp: "1234567890",
-    email: "info@fitlifehub.com",
+    whatsapp: "+916207360959",
+    email: "sksagarkumarverma@gmail.com",
   },
   trainers: [
     {
@@ -88,21 +88,21 @@ export const siteConfig = {
   membershipPlans: [
     {
       title: "Basic",
-      price: "$29",
+      price: "₹399",
       period: "/month",
       features: ["Gym Access", "Locker Room", "1 Group Class/week"],
       isFeatured: false,
     },
     {
       title: "Premium",
-      price: "$49",
+      price: "₹999",
       period: "/month",
       features: ["All Basic Features", "Unlimited Group Classes", "Personal Trainer Access"],
       isFeatured: true,
     },
     {
       title: "Elite",
-      price: "$79",
+      price: "₹1499",
       period: "/month",
       features: ["All Premium Features", "Nutrition Plan", "Sauna & Spa Access"],
       isFeatured: false,

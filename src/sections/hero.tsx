@@ -47,7 +47,7 @@ export function Hero() {
       }}
     >
         {/* Overlay */}
-      <div className="absolute inset-0 bg-black/70"></div>
+      <div className="absolute inset-0 bg-black/50"></div>
 
       <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white">
         <motion.div

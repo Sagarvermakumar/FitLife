@@ -1,11 +1,11 @@
-import { Hero } from "@/sections/hero";
 import About from "@/sections/about";
-import { Services } from "@/sections/services";
-import { Trainers } from "@/sections/trainers";
-import { Membership } from "@/sections/membership";
-import { Testimonials } from "@/sections/testimonials";
 import { Contact } from "@/sections/contact";
-import TransformationStories from "@/sections/transformationStories";
+import { Hero } from "@/sections/hero";
+import { Membership } from "@/sections/membership";
+import { Services } from "@/sections/services";
+import { Testimonials } from "@/sections/testimonials";
+import { Trainers } from "@/sections/trainers";
+import TransformationStories from "@/sections/transformation-history";
 
 export default function Home() {
   return (

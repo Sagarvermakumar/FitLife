@@ -38,7 +38,7 @@ export function Hero() {
   return (
     <motion.section
       id="hero"
-      className="relative bg-cover bg-center bg-no-repeat flex items-center justify-center h-[calc(100vh - 64px)] w-full overflow-hidden bg-black/50 px-4"
+      className="relative bg-cover bg-center bg-no-repeat flex items-center justify-center h-[calc(100vh - 64px)] w-full overflow-hidden bg-black/50 px-4 py-6"
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
        style={{

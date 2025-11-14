@@ -1,17 +1,23 @@
 "use client";
 
-import Image from "next/image";
+import { afterB1,beforeB1, afterg1, beforeg1 } from "@/assets/index.js";
+import { Heading } from "@/components/heading";
 import { Card, CardContent } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { Star } from "lucide-react";
-import {before1,after1} from "@/assets/index.js"
-import { Heading } from "@/components/heading";
+import Image from "next/image";
 
 const transformations = [
 
   {
-    before: before1,
-    after: after1,
+    before: beforeB1,
+    after: afterB1,
+    name: "Amit Patel",
+    rating: 4,
+  },
+  {
+    before: beforeg1,
+    after: afterg1,
     name: "Amit Patel",
     rating: 4,
   },
@@ -36,9 +42,9 @@ export default function TransformationStories() {
                     <div className="flex flex-wrap justify-center gap-4 mb-6">
                       {/* Before Image */}
                       <div className="relative rounded-lg overflow-hidden w-36 sm:w-48 md:w-56">
-                        <span className="absolute top-2 left-2 text-xs font-bold bg-gray-700 text-white px-2 py-1 rounded">
+                        {/* <span className="absolute top-2 left-2 text-xs font-bold bg-gray-700 text-white px-2 py-1 rounded">
                           BEFORE
-                        </span>
+                        </span> */}
                         <Image
                           src={t.before}
                           alt="Before"
@@ -49,9 +55,9 @@ export default function TransformationStories() {
                       </div>
                       {/* After Image */}
                       <div className="relative rounded-lg overflow-hidden w-36 sm:w-48 md:w-56">
-                        <span className="absolute top-2 left-2 text-xs font-bold bg-purple-600 text-white px-2 py-1 rounded">
+                        {/* <span className="absolute top-2 left-2 text-xs font-bold bg-purple-600 text-white px-2 py-1 rounded">
                           AFTER
-                        </span>
+                        </span> */}
                         <Image
                           src={t.after}
                           alt="After"

@@ -9,7 +9,7 @@ export function AnimatedBackground() {
 
         {/* BLUE BLOB */}
         <motion.div
-          className="absolute top-[5%] left-[5%] h-[150px] w-[150px] rounded-full  bg-blue-900/60 blur-[60px]"
+          className="absolute top-[15%] left-[-5%] h-[150px] w-[150px] rounded-full  bg-blue-900/80 blur-[50px]"
           animate={{ x: [0, 10, -10, 0], y: [0, -15, 20, 0] }}
           transition={{
             duration: 12,

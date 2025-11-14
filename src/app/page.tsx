@@ -5,7 +5,7 @@ import { Trainers } from "@/sections/trainers";
 import { Membership } from "@/sections/membership";
 import { Testimonials } from "@/sections/testimonials";
 import { Contact } from "@/sections/contact";
-import TransformationStories from "@/sections/TransformationStories";
+import TransformationStories from "@/sections/transformationStories";
 
 export default function Home() {
   return (

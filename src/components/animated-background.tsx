@@ -4,11 +4,12 @@ import { motion } from "framer-motion";
 
 export function AnimatedBackground() {
   return (
-    <div className="fixed inset-0 -z-10 h-full w-full bg-transparent">
+    <div className="fixed inset-0 -z-10 h-full w-full bg-transparent overflow-hidden">
       <div className="relative h-full w-full">
+
+        {/* BLUE BLOB */}
         <motion.div
-          className="absolute top-[18%] left-[2%] h-[150px] w-[150px] rounded-full bg-blue-700/60"
-          style={{ filter: "blur(70px)" }}
+          className="absolute top-[5%] left-[5%] h-[150px] w-[150px] rounded-full  bg-blue-900/60 blur-[60px]"
           animate={{ x: [0, 10, -10, 0], y: [0, -15, 20, 0] }}
           transition={{
             duration: 12,
@@ -18,21 +19,11 @@ export function AnimatedBackground() {
           }}
         />
 
-        <motion.div
-          className="absolute bottom-[10%] right-[5%] h-[150px] w-[150px] rounded-full bg-pink-700/55"
-          style={{ filter: "blur(70px)" }}
-          animate={{ x: [0, -40, 40, 0], y: [0, 40, -20, 0] }}
-          transition={{
-            duration: 15,
-            repeat: Infinity,
-            repeatType: "mirror",
-            ease: "easeInOut",
-          }}
-        />
       
+
+        {/* PURPLE BLOB */}
         <motion.div
-          className="absolute bottom-[40%] left-[40%] h-[150px] w-[150px] rounded-full bg-purple-500/30"
-          style={{ filter: "blur(60px)" }}
+          className="absolute bottom-[5%] right-[5%] h-[120px] w-[120px] rounded-full bg-purple-900/80 blur-[50px]"
           animate={{ x: [0, 20, -20, 0], y: [0, -30, 30, 0] }}
           transition={{
             duration: 18,
@@ -41,7 +32,9 @@ export function AnimatedBackground() {
             ease: "easeInOut",
           }}
         />
-        <div className="absolute inset-0 h-full w-full bg-black/20 backdrop-blur-lg" />
+
+        {/* DARK OVERLAY WITHOUT HIDING BLOB COLORS */}
+        <div className="absolute inset-0 h-full w-full bg-black/30 backdrop-blur-xl" />
       </div>
     </div>
   );

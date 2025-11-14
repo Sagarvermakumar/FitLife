@@ -7,6 +7,7 @@ import { motion, useMotionValue, useTransform } from "framer-motion";
 import React from "react";
 import { Crown, Calendar, Dumbbell, Users, Award } from "lucide-react";
 import { metadata } from "@/app/layout";
+import { heroBanner } from "@/assets";
 
 
 export function Hero() {
@@ -37,11 +38,17 @@ export function Hero() {
   return (
     <motion.section
       id="hero"
-      className="relative flex items-center justify-center h-[calc(100vh-64px)] w-full overflow-hidden bg-transparent px-4"
+      className="relative   bg-cover bg-center bg-no-repeat flex items-center justify-center h-[calc(100vh-64px)] w-full overflow-hidden bg-black/50 px-4"
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
-      style={{ perspective: "1000px" }}
+       style={{
+         perspective: "1000px",
+         backgroundImage: `url(${heroBanner.src})`
+      }}
     >
+        {/* Overlay */}
+      <div className="absolute inset-0 bg-black/70"></div>
+
       <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-white">
         <motion.div
           style={{ rotateX, rotateY, transition: "transform 0.1s ease-out" }}
@@ -68,7 +75,7 @@ export function Hero() {
             <BookTrialModal>
               <Button
                 size="lg"
-                variant="secondary"
+                variant="outline"
                 className="border-2 border-black-400/40 bg-black-500/20 backdrop-blur-sm hover:bg-black-500/30 transition-all w-full sm:w-auto"
               >
                 <Calendar className="mr-2 h-5 w-5" />
